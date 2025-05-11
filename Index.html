@@ -3,23 +3,60 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Carta</title>
+  <title>Feliz Día de las Madres</title>
   <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
+  <div class="flowers"></div>
+  <div id="particles-js"></div>
+  <div class="floating-hearts"></div>
+  
   <main>
+    <h1 class="title">Feliz Día de las Madres</h1>
+    
     <div class="container-letter">
-      <div class="cover"></div>
+      <div class="cover">
+        <div class="cover-decoration">
+          <i class="fas fa-heart"></i>
+        </div>
+        <div class="ribbon"></div>
+      </div>
+      
+      <div class="letter-content">
+        <div class="paper" id="mainMessage">
+          <div class="paper-decoration"></div>
+          <h2>Querida Mamá</h2>
+          <div class="message-content">
+            <p>En este día tan especial, quiero expresarte todo mi amor y gratitud por ser la mejor mamá del mundo. Gracias por tu amor incondicional, tu paciencia infinita y por estar siempre a mi lado.</p>
+            <p>Eres mi inspiración, mi confidente y mi mejor amiga. Cada momento contigo es un regalo que atesoro en mi corazón.</p>
+            <p>Gracias por tus abrazos que curan todo, por tus consejos que guían mi camino, y por tu sonrisa que ilumina mis días.</p>
+            <p>Te quiero con todo mi corazón.</p>
+          </div>
+          <div class="signature">
+            <span>Con mucho amor,</span>
+            <span class="signature-name">Tu hijo/a</span>
+          </div>
+        </div>
+        <div class="letter"></div>
+      </div>
       <span class="heart">♥</span>
-      <p class="paper" id="mainMessage">
-        "Mamá, en este día de las madres quiero decirte cuánto te amo y valoro todo lo que haces por mí. Te quiero mucho."
-      <div class="letter"></div>
     </div>
+    
     <div class="options">
-      <button id="open">Abrir</button>
-      <button id="close">Cerrar</butto>
+      <button id="open">
+        <i class="fas fa-envelope-open"></i>
+        Abrir Carta
+      </button>
+      <button id="close">
+        <i class="fas fa-envelope"></i>
+        Cerrar Carta
+      </button>
     </div>
   </main>
+  
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
   <script src="script.js"></script>
 </body>
 </html>
